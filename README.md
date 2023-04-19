@@ -15,6 +15,12 @@ $ source env/bin/activate
 (env) $ python -m pip install -r requirements.txt
 ```
 
+Then create a `.env` file named `.env` on the root directory which contains these lines:
+```
+FLASK_APP=authy.py
+
+```
+
 
 ## Setting up the database
 Set up the database migration and recognize models
